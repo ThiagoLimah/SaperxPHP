@@ -1,0 +1,19 @@
+{
+    "name": "ThiagoLimah/SaperxPHP",
+    "description": "API em PHP para conexÃo com a plataforma SPX da SaperX.",
+    "type": "project",
+    "authors": [
+        {
+	    "name": "Thiago A. de Lima",
+	    "email": "thiagolimaes@gmail.com"
+	}
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "SaperxPHP": "src/"
+	}
+    }
+}
