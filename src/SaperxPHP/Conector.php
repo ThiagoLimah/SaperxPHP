@@ -43,4 +43,12 @@ class Conector
             throw new \Exception("SaperX database error.");
         }
     }
+
+    /**
+     * @return \PDO
+     */
+    public function pdo()
+    {
+        return $this->pdo;
+    }
 }
