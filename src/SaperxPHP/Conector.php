@@ -1,4 +1,4 @@
-<?php namespace SaperxPHP;
+<?php namespace \SaperxPHP;
 
 class Conector
 {
@@ -12,8 +12,8 @@ class Conector
     {
         $this->host    = $host;
         $this->usuario = $usuario;
-	$this->senha   = $senha;
-	$this->porta   = $porta;
-	$this->dbname  = $dbname;
+        $this->senha   = $senha;
+        $this->porta   = $porta;
+        $this->dbname  = $dbname;
     }
 }
