@@ -11,4 +11,9 @@ class SPX
     {
         $this->conector = $conector;
     }
+
+    public function filtro($str)
+    {
+        return filter_var($str, FILTER_SANITIZE_STRING);
+    }
 }
